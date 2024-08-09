@@ -11,7 +11,7 @@ const mongoose = require('mongoose')
 
 // mongodb+srv://adarshshankar:triffycodes%402097@cluster0.frjqtav.mongodb.net/
 // .env
-mongoose.connect("mongodb+srv://adarshshankar:triffycodes%402097@cluster0.frjqtav.mongodb.net/todos");
+//mongoose.connect("mongodb+srv://adarshshankar:*******@cluster0.frjqtav.mongodb.net/todos");
 
 const todoSchema = mongoose.Schema({
     title: String,
